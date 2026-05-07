@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-display: var(--font-display);
+  --font-sans: var(--font-sans);
+
+  --color-sand-50: #faf7f2;
+  --color-sand-100: #f1eade;
+  --color-sand-200: #e4d6c1;
+  --color-sand-300: #d4bf9f;
+
+  --color-clay-300: #d8a98a;
+  --color-clay-400: #c89b7b;
+  --color-clay-500: #a8754f;
+  --color-clay-600: #8a5a3a;
+
+  --color-terra-700: #6b4226;
+  --color-terra-800: #4f2f1c;
+  --color-terra-900: #3a2415;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans), system-ui, sans-serif;
+}
